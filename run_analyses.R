@@ -35,5 +35,5 @@ vars_gp2 <- c("F1", "F2", "F3", "F4", "F5", "F6")
 source("R/00_download.R")
 
 for (url in urls_list) {
-  download_file(url, raw_data)
+  DownloadFile(url, raw_data)
 }

@@ -9,7 +9,7 @@
 # Date script created: Mon Aug 29 15:15 2021 -----------
 # Date script last modified: on Aug 29 16:15 2021 ------
 
-download_file <- function(url,
+DownloadFile <- function(url,
                           raw_repo) {
 
   # Check if repository exists, if not we created
